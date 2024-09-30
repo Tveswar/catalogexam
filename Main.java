@@ -17,7 +17,7 @@ public class test {
     public static void main(String[] args) throws IOException, ParseException {
         // Parse JSON input
         JSONParser jsonParser = new JSONParser();
-        FileReader reader = new FileReader(".\\Json files\\file.json"); // Provide your input file path here
+        FileReader reader = new FileReader("input.json"); // Provide your input file path here
         JSONObject jsonObject = (JSONObject) jsonParser.parse(reader);
 
         // Extract keys (n and k values)
